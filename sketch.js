@@ -140,7 +140,7 @@ function fruits()
               if(position === 2){
                 fruit.x=0
                 //increase the velocity of the fruits after score reaches 4
-                fruit.velocityX = (7+(score/4)); 
+               fruit.velocityX = (7+(score/4)); 
               }  
             }
               fruit.y = Math.round(random(50,340));
